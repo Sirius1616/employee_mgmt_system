@@ -19,13 +19,14 @@ A full-featured **Employee Records Management System** built with **Flask**, des
 | Layer        | Technology Used              |
 |--------------|------------------------------|
 | Backend      | Python (Flask)               |
-| Database     | SQLite / PostgreSQL          |
+| Database     | MySQL          |
 | ORM          | SQLAlchemy                   |
 | Forms        | Flask-WTF                    |
 | Email        | Flask-Mail                   |
 | Auth         | Flask-Login                  |
 | API Layer    | Flask-RESTful + Flask-CORS   |
 | Charts       | Chart.js (optional frontend) |
+| Data Viz     | pandas, seaborn, matplotlib  |
 
 ---
 
@@ -95,7 +96,7 @@ flask run
 FLASK_APP=run.py
 FLASK_ENV=development
 SECRET_KEY=your-secret-key
-SQLALCHEMY_DATABASE_URI=sqlite:///db.sqlite3
+SQLALCHEMY_DATABASE_URI=mysql+pymysql://username:password@localhost/dbname
 MAIL_SERVER=smtp.gmail.com
 MAIL_PORT=587
 MAIL_USE_TLS=True
