@@ -200,7 +200,7 @@ MIT License – feel free to use and modify.
 
 ## 👨‍💻 Author
 
-**John Ezekiel**  
+**John Omokhagbon Ezekiel**  
 Data Analyst | Python Developer | SQL Enthusiast  
 [LinkedIn](https://www.linkedin.com/in/john-ezekiel-coren/) | [GitHub](https://github.com/Sirius1616)
 
