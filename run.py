@@ -14,7 +14,7 @@ def make_shell_context():
     return {
         'db': db,
         'User': User,
-        'Employee': Employee
+        'Employee': Employee.
     }
 
 if __name__ == "__main__":
